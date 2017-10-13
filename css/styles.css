@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-image: url("img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 300%;
+    background-color:black;
+}
+
+form {
+    margin-left: 10px;
+    text-shadow: 2px 0px black;
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+}
