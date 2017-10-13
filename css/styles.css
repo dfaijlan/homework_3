@@ -18,9 +18,20 @@ h1 {
     background-color:black;
 }
 
-form {
+body {
     margin-left: 10px;
     text-shadow: 2px 0px black;
     font-family: 'Ubuntu', sans-serif;
     color:white;
+}
+
+#thankyou {
+    text-align: center;
+    font-size: 200%;
+}
+
+#return {
+    text-align: center;
+    font-size: 200%;
+    margin-top:200px;
 }
