@@ -18,15 +18,15 @@
             Quiz!</h1>
             
         <form method="post" action="<?php echo $action; ?>">
-            Name: <input type="text" name="name" value=""><br><br>
+            Name: <input type="text" name="name" value="" required><br><br>
             Own the Game? 
-            <select name="own">
+            <select name="own" required>
                 <option value="">Select One</option>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
             </select><br><br>
             Did you enjoy the game? (if applicable)
-            <select name="rating">
+            <select name="rating" required>
                 <option value="">Select One</option>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
